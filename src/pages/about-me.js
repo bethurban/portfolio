@@ -95,7 +95,7 @@ class AboutMe extends React.Component {
             </t.LargeP>
           </AboveFold>
           <Content>
-            <Img fluid={data.avatarAbout.childImageSharp.fluid} alt="Name Surname" className="avatar" />
+            <Img fluid={data.avatarAbout.childImageSharp.fluid} alt="Beth Urban" className="avatar" />
           </Content>
         </Layout>
         <HireMePopup open={openHireMePopup} handleClose={this.handleRequestDemoClose} />
