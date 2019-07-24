@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import * as Mixins from '../Mixins';
 import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
+import Mycomps from '../images/mycomps.png';
 import Placeholder from '../images/placeholder.png';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
@@ -144,12 +145,12 @@ class Homepage extends React.Component {
       <HomepageWrapper>
         <Layout theme="white" bigFooter openContactPopup={this.openContactPopup}>
           <AboveFold>
-            <Img fluid={data.avatarHomepage.childImageSharp.fluid} alt="Name Surname" className="avatar" />
+            <Img fluid={data.avatarHomepage.childImageSharp.fluid} alt="Beth Urban" className="avatar" />
             <t.H1 primary align="center">
-              Name Surname
+              Beth Urban
             </t.H1>
             <t.LargeP align="center" max45>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Software engineer, technical coach
             </t.LargeP>
             <HireMe large onClick={this.openContactPopup} book>
               Hire me
@@ -157,10 +158,12 @@ class Homepage extends React.Component {
           </AboveFold>
           <Content>
             <t.H2 primary align="center" bold>
-              Lorem ipsum
+              Flatiron School full-stack web development graduate
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Full-stack web developer with a passion for creating, building and learning. With experience in Redux,
+              React, JavaScript and Ruby on Rails, plus a background in journalism, I discovered software engineering
+              through nearly 10 years of experience in digital newsrooms.
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
@@ -169,15 +172,71 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
+                <ItemImage src={Mycomps} alt="Placeholder title" />
+              </DivWrapper>
+              <DivWrapper>
+                <t.H2 bold>My Comps</t.H2>
+                <t.P>
+                  Users can search an address and see comparable properties with details such as last sold price, plus a
+                  map of all properties.
+                </t.P>
+                <t.P>React/Redux with a Rails API to store registered users and saved searches.</t.P>
+                <t.P>
+                  Accesses the Zillow and Google APIs to return property details, map properties and log users in.
+                </t.P>
+                <LinkButton primary bold className="link" as="a" target="_blank" href="https://my-comps.herokuapp.com/">
+                  Live site
+                </LinkButton>
+                <br />
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://github.com/bethurban/my-comps-client"
+                >
+                  Front-end code
+                </LinkButton>
+                <br />
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://github.com/bethurban/my-comps-api"
+                >
+                  Back-end code
+                </LinkButton>
+              </DivWrapper>
+            </BlockContent>
+          </Block>
+          <Block>
+            <BlockContent>
+              <DivWrapper>
+                <t.H2 bold>Placeholder website</t.H2>
+                <t.P>Lorem ipsum</t.P>
+                <t.P>Dolor sit amet</t.P>
+                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
+                  Lorem ipsum
+                </LinkButton>
+              </DivWrapper>
+              <DivWrapper>
+                <ItemImage src={Placeholder} alt="Placeholder title" />
+              </DivWrapper>
+            </BlockContent>
+          </Block>
+          <Block>
+            <BlockContent>
+              <DivWrapper>
                 <ItemImage src={Placeholder} alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Placeholder website</t.H2>
                 <t.P>Lorem ipsum</t.P>
                 <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
+                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
                   Lorem ipsum
                 </LinkButton>
               </DivWrapper>
@@ -189,43 +248,7 @@ class Homepage extends React.Component {
                 <t.H2 bold>Placeholder website</t.H2>
                 <t.P>Lorem ipsum</t.P>
                 <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
-                </LinkButton>
-              </DivWrapper>
-              <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
-              </DivWrapper>
-            </BlockContent>
-          </Block>
-          <Block>
-            <BlockContent>
-              <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
-              </DivWrapper>
-              <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
-                </LinkButton>
-              </DivWrapper>
-            </BlockContent>
-          </Block>
-          <Block>
-            <BlockContent>
-              <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
+                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
                   Lorem ipsum
                 </LinkButton>
               </DivWrapper>
@@ -236,9 +259,7 @@ class Homepage extends React.Component {
           </Block>
           <WorkWithMe>
             <t.H1 green>Get in touch with me</t.H1>
-            <t.LargeP>
-              Fancy working with me? Contact me for more info!{' '}
-            </t.LargeP>
+            <t.LargeP>Fancy working with me? Contact me for more info! </t.LargeP>
             <HireMe onClick={this.openContactPopup} book>
               Contact me
             </HireMe>
