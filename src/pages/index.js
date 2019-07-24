@@ -152,18 +152,32 @@ class Homepage extends React.Component {
             <t.LargeP align="center" max45>
               Software engineer, technical coach
             </t.LargeP>
-            <HireMe large onClick={this.openContactPopup} book>
-              Hire me
-            </HireMe>
           </AboveFold>
           <Content>
             <t.H2 primary align="center" bold>
               Flatiron School full-stack web development graduate
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-              Full-stack web developer with a passion for creating, building and learning. With experience in Redux,
-              React, JavaScript and Ruby on Rails, plus a background in journalism, I discovered software engineering
-              through nearly 10 years of experience in digital newsrooms.
+              <LinkButton primary bold className="link" as="a" target="_blank" href="https://github.com/bethurban">
+                Github
+              </LinkButton>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <LinkButton
+                primary
+                bold
+                className="link"
+                as="a"
+                target="_blank"
+                href="https://drive.google.com/file/d/1DPyXVt2UODQfsPx9JQbNgvcHA4CXOHq1/view?usp=sharing"
+              >
+                Resume
+              </LinkButton>
+              <p>
+                Full-stack web developer based in the New York City area with a passion for creating, building and
+                learning.
+              </p>
+              <p>I am experienced in Redux, React, JavaScript, Rails, Ruby, SQL, Bootstrap, CSS and HTML.</p>
+              <p>I discovered software engineering through nearly 10 years of experience in digital newsrooms.</p>
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
