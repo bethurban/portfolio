@@ -5,5 +5,6 @@
 <a href="#" target="_blank">
   Live version
 </a>
-
+<br>
+<br>
 Built with a <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby Starter</a>
