@@ -63,6 +63,7 @@ const AboutMeWrapper = styled.div`
     padding: 0;
     color: ${Colors.darkest};
     text-decoration: underlined;
+    font-size: 23px;
   }
 `;
 

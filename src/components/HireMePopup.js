@@ -46,6 +46,9 @@ const ContentWrapper = styled.div`
     padding: 0;
     margin: 0 30px;
   `};
+  #mail {
+    color: ${Colors.darkest};
+  }
 `;
 
 const Burger = styled.div`
@@ -92,7 +95,9 @@ class HireMePopup extends React.Component {
           </Link>
           <t.H3>Or email me at</t.H3>
           <t.H3>
-            <a href="mailto:beth.urban@gmail.com">beth.urban@gmail.com</a>
+            <a id="mail" href="mailto:beth.urban@gmail.com">
+              beth.urban@gmail.com
+            </a>
           </t.H3>
         </ContentWrapper>
       </HireMePopupWrapper>
