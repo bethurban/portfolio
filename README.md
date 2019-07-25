@@ -2,7 +2,7 @@
   Elizabeth Urban's portfolio site
 </h1>
 
-<a href="#" target="_blank">
+<a href="https://www.bethurban.com/" target="_blank">
   Live version
 </a>
 <br>
