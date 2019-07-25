@@ -4,9 +4,11 @@ import * as Mixins from '../Mixins';
 import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
 import HireMePopup from '../components/HireMePopup.js';
+import { LinkButton } from '../components/Button.js';
 import { media } from '../MediaQueries';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
+import Colors from '../Colors';
 
 const AboveFold = styled.div`
   ${Mixins.aboveFoldMixin}
@@ -57,6 +59,11 @@ const AboutMeWrapper = styled.div`
     display: block;
     ${media.tablet`max-width: 70%;`}
   }
+  #resume {
+    padding: 0;
+    color: ${Colors.darkest};
+    text-decoration: underlined;
+  }
 `;
 
 class AboutMe extends React.Component {
@@ -86,6 +93,16 @@ class AboutMe extends React.Component {
             <t.H1 green align="center">
               Beth Urban
             </t.H1>
+            <LinkButton
+              primary
+              bold
+              id="resume"
+              as="a"
+              target="_blank"
+              href="https://drive.google.com/file/d/1DPyXVt2UODQfsPx9JQbNgvcHA4CXOHq1/view?usp=sharing"
+            >
+              Resume
+            </LinkButton>
             <t.LargeP align="center" max70>
               <p>
                 I’m a web developer who spent 10 years as a digital journalist before learning software engineering with
