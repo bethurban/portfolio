@@ -234,6 +234,17 @@ class Homepage extends React.Component {
                 >
                   Back-end code
                 </LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=5ZsdZPWa8jw&feature=youtu.be"
+                >
+                  Demo
+                </LinkButton>
               </DivWrapper>
             </BlockContent>
           </Block>
