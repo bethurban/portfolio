@@ -179,7 +179,7 @@ class Homepage extends React.Component {
                 className="topLink"
                 as="a"
                 target="_blank"
-                href="https://drive.google.com/file/d/1DPyXVt2UODQfsPx9JQbNgvcHA4CXOHq1/view?usp=sharing"
+                href="https://drive.google.com/file/d/1BuVOUtCVrYW6i5gUGZPdlj1JHKti66Yd/view?usp=sharing"
               >
                 Resume
               </LinkButton>
@@ -334,9 +334,9 @@ class Homepage extends React.Component {
                   className="link"
                   as="a"
                   target="_blank"
-                  href="https://www.youtube.com/watch?v=0eTmBbFYxbA&feature=youtu.be"
+                  href="https://github.com/bethurban/dog_breeds-cli-app"
                 >
-                  Demo
+                  Code
                 </LinkButton>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <LinkButton
@@ -345,9 +345,9 @@ class Homepage extends React.Component {
                   className="link"
                   as="a"
                   target="_blank"
-                  href="https://github.com/bethurban/dog_breeds-cli-app"
+                  href="https://www.youtube.com/watch?v=0eTmBbFYxbA&feature=youtu.be"
                 >
-                  Code
+                  Demo
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
