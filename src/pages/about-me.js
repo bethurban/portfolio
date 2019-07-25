@@ -84,14 +84,25 @@ class AboutMe extends React.Component {
         <Layout theme="white" openContactPopup={this.openContactPopup}>
           <AboveFold>
             <t.H1 green align="center">
-              Beth Urban - software engineer
+              Beth Urban
             </t.H1>
             <t.LargeP align="center" max70>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
+              <p>
+                I’m a web developer who spent 10 years as a digital journalist before learning software engineering with
+                the Flatiron School. My career as a front page editor showed me the power of digital tools like mobile
+                apps and websites. I’ve always loved to craft and build things, and I decided to take my interest in
+                coding to the next level by transitioning to a career in tech.
+              </p>
+              <p>
+                I'm currently working as an online technical coach for Flatiron School students who are making their way
+                through the software engineering curriculum. I work directly with students, acting as an on-demand
+                instructor while they work through the software engineering curriculum, and guide them through debugging
+                their code while explaining key programming concepts.
+              </p>
+              <p>
+                I’ve worked in React and Redux, JavaScript, Ruby on Rails, Sinatra, Bootstrap, CSS and HTML, and I have
+                extensive experience working remotely and in high-pressure, deadline-driven environments.
+              </p>
             </t.LargeP>
           </AboveFold>
           <Content>
