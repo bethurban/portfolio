@@ -5,6 +5,9 @@ import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
 import Mycomps from '../images/mycomps.png';
 import Placeholder from '../images/placeholder.png';
+import Flatiron from '../images/flatironhotel.png';
+import Wishlist from '../images/travelwishlist.png';
+import Dogbreeds from '../images/dogbreeds.png';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
@@ -201,7 +204,7 @@ class Homepage extends React.Component {
                 <LinkButton primary bold className="link" as="a" target="_blank" href="https://my-comps.herokuapp.com/">
                   Live site
                 </LinkButton>
-                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 <LinkButton
                   primary
                   bold
@@ -212,7 +215,7 @@ class Homepage extends React.Component {
                 >
                   Front-end code
                 </LinkButton>
-                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 <LinkButton
                   primary
                   bold
@@ -229,29 +232,73 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
+                <t.H2 bold>The Flatiron Hotel</t.H2>
+                <t.P>
+                  Using this mock hotel app, guests can view and book available rooms, and admins can manage rooms and
+                  reservations.
+                </t.P>
+                <t.P>Developed a Ruby on Rails API with endpoints for hotel guests, rooms and reservations.</t.P>
+                <t.P>Added dynamic search and display features using JavaScript and a JSON API.</t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://github.com/bethurban/flatiron-hotel"
+                >
+                  Code
+                </LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=fkN8lO62-go&feature=youtu.be"
+                >
+                  Demo
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={Flatiron} alt="Flatiron Hotel" />
               </DivWrapper>
             </BlockContent>
           </Block>
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={Wishlist} alt="Travel Wishlist" />
               </DivWrapper>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
+                <t.H2 bold>Travel Wishlist</t.H2>
+                <t.P>Users can add destinations to their travel wishlists and track where they've been.</t.P>
+                <t.P>
+                  Built with Sinatra and a focus on the MVC pattern and CRUD actions to create a content management
+                  system.
+                </t.P>
+                <t.P>Employed ActiveRecord to build and maintain the database.</t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://github.com/bethurban/travel-wishlist"
+                >
+                  Code
+                </LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=wlyPgzF_Kmc"
+                >
+                  Demo
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -259,21 +306,49 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
+                <t.H2 bold>Dog Breeds Gem</t.H2>
+                <t.P>A CLI app that lists American Kennel Club dog breeds and prints details about a chosen breed.</t.P>
+                <t.P>Used Object-Oriented Ruby to scrape and parse data from the AKC's website.</t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://rubygems.org/gems/akc_dog_breeds"
+                >
+                  RubyGems
+                </LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=0eTmBbFYxbA&feature=youtu.be"
+                >
+                  Demo
+                </LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://github.com/bethurban/dog_breeds-cli-app"
+                >
+                  Code
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={Dogbreeds} alt="Dog Breeds Gem" />
               </DivWrapper>
             </BlockContent>
           </Block>
           <WorkWithMe>
             <t.H1 green>Get in touch with me</t.H1>
-            <t.LargeP>Fancy working with me? Contact me for more info! </t.LargeP>
             <HireMe onClick={this.openContactPopup} book>
               Contact me
             </HireMe>
