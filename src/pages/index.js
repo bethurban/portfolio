@@ -77,7 +77,7 @@ const HomepageWrapper = styled.div`
     max-width: 90%;
   }
   ${t.LargeP} {
-    margin-bottom: 28px;
+    margin-bottom: 0px;
   }
   ${t.H1} {
     margin: 0 0 20px 0;
@@ -98,8 +98,17 @@ const HomepageWrapper = styled.div`
       margin-left: 7px;
     }
   }
+  .topLink {
+    padding: 0px 10px;
+    color: ${Colors.darkest};
+    text-decoration: underlined;
+    svg {
+      margin-left: 7px;
+    }
+    font-size: 20px;
+  }
   .portfolio {
-    margin: 100px 0 50px 0;
+    margin: 50px 0;
     font-size: 42px;
   }
 `;
@@ -161,14 +170,13 @@ class Homepage extends React.Component {
               Flatiron School full-stack web development graduate
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-              <LinkButton primary bold className="link" as="a" target="_blank" href="https://github.com/bethurban">
+              <LinkButton primary bold className="topLink" as="a" target="_blank" href="https://github.com/bethurban">
                 Github
               </LinkButton>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <LinkButton
                 primary
                 bold
-                className="link"
+                className="topLink"
                 as="a"
                 target="_blank"
                 href="https://drive.google.com/file/d/1DPyXVt2UODQfsPx9JQbNgvcHA4CXOHq1/view?usp=sharing"
