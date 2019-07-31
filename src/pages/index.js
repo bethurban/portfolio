@@ -7,6 +7,7 @@ import Mycomps from '../images/mycomps.png';
 import Placeholder from '../images/placeholder.png';
 import Flatiron from '../images/flatironhotel.png';
 import Wishlist from '../images/travelwishlist.png';
+import Prince from '../images/prince.png';
 import Dogbreeds from '../images/dogbreeds.png';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
@@ -197,8 +198,38 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Mycomps} alt="Placeholder title" />
+                <ItemImage src={Prince} alt="Prince Predicts the Weather" />
               </DivWrapper>
+              <DivWrapper>
+                <t.H2 bold>Prince Predicts the Weather</t.H2>
+                <t.P>Let the Purple One deliver your five-day forecast.</t.P>
+                <t.P>React. Accesses the Weatherbit API to return forecast data based on searched zip code.</t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://prince-weather.netlify.com"
+                >
+                  Live site
+                </LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://github.com/bethurban/prince-weather"
+                >
+                  Code
+                </LinkButton>
+              </DivWrapper>
+            </BlockContent>
+          </Block>
+          <Block>
+            <BlockContent>
               <DivWrapper>
                 <t.H2 bold>My Comps</t.H2>
                 <t.P>
@@ -246,10 +277,16 @@ class Homepage extends React.Component {
                   Demo
                 </LinkButton>
               </DivWrapper>
+              <DivWrapper>
+                <ItemImage src={Mycomps} alt="My Comps" />
+              </DivWrapper>
             </BlockContent>
           </Block>
           <Block>
             <BlockContent>
+              <DivWrapper>
+                <ItemImage src={Flatiron} alt="Flatiron Hotel" />
+              </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>The Flatiron Hotel</t.H2>
                 <t.P>
@@ -280,16 +317,10 @@ class Homepage extends React.Component {
                   Demo
                 </LinkButton>
               </DivWrapper>
-              <DivWrapper>
-                <ItemImage src={Flatiron} alt="Flatiron Hotel" />
-              </DivWrapper>
             </BlockContent>
           </Block>
           <Block>
             <BlockContent>
-              <DivWrapper>
-                <ItemImage src={Wishlist} alt="Travel Wishlist" />
-              </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Travel Wishlist</t.H2>
                 <t.P>Users can add destinations to their travel wishlists and track where they've been.</t.P>
@@ -320,10 +351,16 @@ class Homepage extends React.Component {
                   Demo
                 </LinkButton>
               </DivWrapper>
+              <DivWrapper>
+                <ItemImage src={Wishlist} alt="Travel Wishlist" />
+              </DivWrapper>
             </BlockContent>
           </Block>
           <Block>
             <BlockContent>
+              <DivWrapper>
+                <ItemImage src={Dogbreeds} alt="Dog Breeds Gem" />
+              </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Dog Breeds Gem</t.H2>
                 <t.P>A CLI app that lists American Kennel Club dog breeds and prints details about a chosen breed.</t.P>
@@ -360,9 +397,6 @@ class Homepage extends React.Component {
                 >
                   Demo
                 </LinkButton>
-              </DivWrapper>
-              <DivWrapper>
-                <ItemImage src={Dogbreeds} alt="Dog Breeds Gem" />
               </DivWrapper>
             </BlockContent>
           </Block>
