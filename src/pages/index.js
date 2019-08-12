@@ -210,7 +210,7 @@ class Homepage extends React.Component {
                   className="link"
                   as="a"
                   target="_blank"
-                  href="https://prince-weather.netlify.com"
+                  href="https://princepredictstheweather.netlify.com"
                 >
                   Live site
                 </LinkButton>
