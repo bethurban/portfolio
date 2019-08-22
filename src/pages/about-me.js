@@ -118,8 +118,8 @@ class AboutMe extends React.Component {
                 their code while explaining key programming concepts.
               </p>
               <p>
-                I’ve worked in React and Redux, JavaScript, Ruby on Rails, Sinatra, Bootstrap, CSS and HTML, and I have
-                extensive experience working remotely and in high-pressure, deadline-driven environments.
+                I’ve worked in React, Redux, Node.js, JavaScript, Ruby on Rails, Sinatra, Bootstrap, CSS and HTML, and I
+                have extensive experience working remotely and in high-pressure, deadline-driven environments.
               </p>
             </t.LargeP>
           </AboveFold>
