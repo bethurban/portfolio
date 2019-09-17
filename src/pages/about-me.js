@@ -100,7 +100,7 @@ class AboutMe extends React.Component {
               id="resume"
               as="a"
               target="_blank"
-              href="https://drive.google.com/file/d/1z3SUgPcJkX-OasFRJ2N85Wyi1-_9kMUR/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lLbX9QaxsTANY4lBA_YTMnV7lw6P-xXe/view?usp=sharing"
             >
               Resume
             </LinkButton>
