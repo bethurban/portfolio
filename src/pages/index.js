@@ -188,7 +188,7 @@ class Homepage extends React.Component {
                 Full-stack web developer based in the New York City area with a passion for creating, building and
                 learning.
               </p>
-              <p>I am experienced in Redux, React, Node.js, JavaScript, Rails, Ruby, SQL, Bootstrap, CSS and HTML.</p>
+              <p>I am experienced in Redux, React, JavaScript, JSON, Rails, Ruby, SQL, Bootstrap, CSS and HTML.</p>
               <p>I discovered software engineering through nearly 10 years of experience in digital newsrooms.</p>
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
@@ -236,7 +236,7 @@ class Homepage extends React.Component {
                   Users can search an address and see comparable properties with details such as last sold price, plus a
                   map of all properties.
                 </t.P>
-                <t.P>React/Redux with a Rails API to store registered users and saved searches.</t.P>
+                <t.P>React/Redux with a RESTful Rails JSON API to store registered users and saved searches.</t.P>
                 <t.P>
                   Accesses the Zillow and Google APIs to return property details, map properties and log users in.
                 </t.P>
@@ -364,7 +364,7 @@ class Homepage extends React.Component {
               <DivWrapper>
                 <t.H2 bold>Dog Breeds Gem</t.H2>
                 <t.P>A CLI app that lists American Kennel Club dog breeds and prints details about a chosen breed.</t.P>
-                <t.P>Used Object-Oriented Ruby to scrape and parse data from the AKC's website.</t.P>
+                <t.P>Used Object-Oriented Ruby and Nokogiri to scrape and parse data from the AKC's website.</t.P>
                 <LinkButton
                   primary
                   bold
