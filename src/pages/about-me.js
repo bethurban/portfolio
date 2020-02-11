@@ -106,20 +106,26 @@ class AboutMe extends React.Component {
             </LinkButton>
             <t.LargeP align="center" max70>
               <p>
-                I’m a web developer who spent 10 years as a digital journalist before learning software engineering with
-                the Flatiron School. My career as a front page editor showed me the power of digital tools like mobile
-                apps and websites. I’ve always loved to craft and build things, and I decided to take my interest in
-                coding to the next level by transitioning to a career in tech.
+                I’m a web developer who spent 10 years as a front page journalist before learning software engineering
+                with the Flatiron School. In my current role at a digital marketing firm, I'm building sites for a wide
+                base of clients. I'm updating custom WordPress themes and plugins using PHP and styling using Sass. I'm
+                also using React, the WordPress API and the NationBuilder API to build internal reporting and metrics
+                tools.
               </p>
               <p>
-                I'm currently working as an online technical coach for Flatiron School students who are making their way
-                through the software engineering curriculum. I work directly with students, acting as an on-demand
-                instructor while they work through the software engineering curriculum, and guide them through debugging
-                their code while explaining key programming concepts.
+                My previous career as a front page editor showed me the power of digital tools, and I'm eager to grow as
+                a developer and learn on the job. I'm excited by JavaScript and frameworks like React, Angular and
+                Vue.js, and I appreciate the structure of Rails and syntax of Ruby.
               </p>
               <p>
-                I’ve worked in React, Redux, Node.js, JavaScript, Ruby on Rails, Sinatra, Bootstrap, CSS and HTML, and I
-                have extensive experience working remotely and in high-pressure, deadline-driven environments.
+                I became very familiar with explaining technical concepts in real-world terms during my time as an
+                online technical coach for Flatiron School students, most of whom come to software engineering from
+                non-technical backgrounds.
+              </p>
+              <p>
+                I’ve worked in React, Redux, Node.js, JavaScript, WordPress, PHP, Ruby on Rails, Sinatra, Bootstrap, CSS
+                and HTML, and I have extensive experience working remotely and in high-pressure, deadline-driven
+                environments.
               </p>
             </t.LargeP>
           </AboveFold>

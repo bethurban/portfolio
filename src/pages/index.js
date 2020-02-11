@@ -188,8 +188,15 @@ class Homepage extends React.Component {
                 Full-stack web developer based in the New York City area with a passion for creating, building and
                 learning.
               </p>
-              <p>I am experienced in Redux, React, JavaScript, JSON, Rails, Ruby, SQL, Bootstrap, CSS and HTML.</p>
-              <p>I discovered software engineering through nearly 10 years of experience in digital newsrooms.</p>
+              <p>Experienced in remote work and eager to learn on the job.</p>
+              <p>
+                I am experienced in Redux, React, JavaScript, JSON, WordPress, PHP, Rails, Ruby, SQL, Bootstrap, CSS and
+                HTML.
+              </p>
+              <p>
+                I'm currently working as a developer, building sites for a wide client base and internal tools. I
+                discovered software engineering through nearly 10 years of experience in digital newsrooms.
+              </p>
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
