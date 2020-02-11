@@ -168,7 +168,7 @@ class Homepage extends React.Component {
           </AboveFold>
           <Content>
             <t.H2 primary align="center" bold>
-              Flatiron School full-stack web development graduate
+              Software engineer, Flatiron School graduate, former digital journalist
             </t.H2>
             <t.P align="center" max70 className="who-desc">
               <LinkButton primary bold className="topLink" as="a" target="_blank" href="https://github.com/bethurban">
@@ -190,12 +190,12 @@ class Homepage extends React.Component {
               </p>
               <p>Experienced in remote work and eager to learn on the job.</p>
               <p>
-                I am experienced in Redux, React, JavaScript, JSON, WordPress, PHP, Rails, Ruby, SQL, Bootstrap, CSS and
+                I have worked in Redux, React, JavaScript, JSON, WordPress, PHP, Rails, Ruby, SQL, Bootstrap, CSS and
                 HTML.
               </p>
               <p>
-                I'm currently working as a developer, building sites for a wide client base and internal tools. I
-                discovered software engineering through nearly 10 years of experience in digital newsrooms.
+                In my current role, I'm building sites for a wide client base and tools for internal use. I discovered
+                software engineering through nearly 10 years of experience in digital newsrooms.
               </p>
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
