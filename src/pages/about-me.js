@@ -110,7 +110,7 @@ class AboutMe extends React.Component {
                 with the Flatiron School. In my current role at a digital marketing firm, I'm building sites for a wide
                 base of clients. I'm updating custom WordPress themes and plugins using PHP and styling using Sass. I'm
                 also using React, the WordPress API and the NationBuilder API to build internal reporting and metrics
-                tools.
+                apps.
               </p>
               <p>
                 My previous career as a front page editor showed me the power of digital tools, and I'm eager to grow as
@@ -123,9 +123,9 @@ class AboutMe extends React.Component {
                 non-technical backgrounds.
               </p>
               <p>
-                I’ve worked in React, Redux, Node.js, JavaScript, WordPress, PHP, Ruby on Rails, Sinatra, Bootstrap, CSS
-                and HTML, and I have extensive experience working remotely and in high-pressure, deadline-driven
-                environments.
+                I’ve worked in React, Redux, Node.js, JavaScript, WordPress, PHP, Ruby on Rails, Sinatra, Bootstrap,
+                Sass, CSS and HTML, and I have extensive experience working remotely and in high-pressure,
+                deadline-driven environments.
               </p>
             </t.LargeP>
           </AboveFold>

@@ -162,14 +162,14 @@ class Homepage extends React.Component {
             <t.H1 primary align="center">
               Beth Urban
             </t.H1>
-            <t.LargeP align="center" max45>
-              Software engineer, technical coach
-            </t.LargeP>
-          </AboveFold>
-          <Content>
+            {/*<t.LargeP align="center" max45>*/}
+            {/*  Full-stack software engineer*/}
+            {/*</t.LargeP>*/}
             <t.H2 primary align="center" bold>
               Software engineer, Flatiron School graduate, former digital journalist
             </t.H2>
+          </AboveFold>
+          <Content>
             <t.P align="center" max70 className="who-desc">
               <LinkButton primary bold className="topLink" as="a" target="_blank" href="https://github.com/bethurban">
                 Github
@@ -190,8 +190,8 @@ class Homepage extends React.Component {
               </p>
               <p>Experienced in remote work and eager to learn on the job.</p>
               <p>
-                I have worked in Redux, React, JavaScript, JSON, WordPress, PHP, Rails, Ruby, SQL, Bootstrap, CSS and
-                HTML.
+                I have worked in Redux, React, JavaScript, JSON, WordPress, PHP, Rails, Ruby, SQL, Bootstrap, Sass, CSS
+                and HTML.
               </p>
               <p>
                 In my current role, I'm building sites for a wide client base and tools for internal use. I discovered

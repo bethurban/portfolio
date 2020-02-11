@@ -19,7 +19,7 @@ const Footer = ({ big, medium }) => (
   <FooterWrapper {...big && { big }} {...medium && { medium }}>
     <Content>
       <Copyright white align="center">
-        © Elizabeth Urban 2019. All rights reserved.
+        © Elizabeth Urban 2020. All rights reserved.
       </Copyright>
     </Content>
   </FooterWrapper>
