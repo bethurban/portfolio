@@ -9,6 +9,7 @@ import Flatiron from '../images/flatironhotel.png';
 import Wishlist from '../images/travelwishlist.png';
 import Prince from '../images/prince.png';
 import Dogbreeds from '../images/dogbreeds.png';
+import UFCW from '../images/UFCW.png';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
@@ -202,6 +203,32 @@ class Homepage extends React.Component {
               Portfolio
             </t.H2>
           </Content>
+          <Block>
+            <BlockContent>
+              <DivWrapper>
+                <t.H2 bold>UFCW Local 2013</t.H2>
+                <t.P>
+                  One of the nearly 1,000 local unions in the U.S., Canada and Puerto Rico that make up the United Food
+                  and Commercial Workers International Union.
+                </t.P>
+                <t.P>
+                  Custom WordPress theme with additional customization to meet design and client needs via plugin. PHP
+                  and jQuery, styled with Sass.
+                </t.P>
+                <t.P>
+                  Pushed to production on an accelerated schedule to get essential COVID-19 messaging out to union
+                  members.
+                </t.P>
+                <t.P>Lead developer as part of the Mosaic Strategies Group team in Bloomfield, New Jersey.</t.P>
+                <LinkButton primary bold className="link" as="a" target="_blank" href="https://www.ufcw2013.org/">
+                  Live site
+                </LinkButton>
+              </DivWrapper>
+              <DivWrapper>
+                <ItemImage src={UFCW} alt="UFCW" />
+              </DivWrapper>
+            </BlockContent>
+          </Block>
           <Block>
             <BlockContent>
               <DivWrapper>
