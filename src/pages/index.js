@@ -181,7 +181,7 @@ class Homepage extends React.Component {
                 className="topLink"
                 as="a"
                 target="_blank"
-                href="https://drive.google.com/file/d/1lLbX9QaxsTANY4lBA_YTMnV7lw6P-xXe/view?usp=sharing"
+                href="https://drive.google.com/file/d/1w4XSI82HYNXF69vMsspB0L-JbbIyxgNk/view?usp=sharing"
               >
                 Resume
               </LinkButton>
