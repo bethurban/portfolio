@@ -169,6 +169,13 @@ class Homepage extends React.Component {
             <t.H2 primary align="center" bold>
               Software engineer, Flatiron School graduate, former digital journalist
             </t.H2>
+            <t.H4>
+              <b>Experienced:</b> React, Redux, JavaScript, jQuery, WordPress, PHP, Rails, Ruby, SQL, Bootstrap, Sass,
+              CSS, HTML.
+            </t.H4>
+            <t.H4>
+              <b>Learning and diving deeper:</b> TypeScript, React Hooks, PHP, Python, Django.
+            </t.H4>
           </AboveFold>
           <Content>
             <t.P align="center" max70 className="who-desc">
@@ -190,10 +197,6 @@ class Homepage extends React.Component {
                 learning.
               </p>
               <p>Experienced in remote work and eager to learn on the job.</p>
-              <p>
-                I have worked in Redux, React, JavaScript, JSON, WordPress, PHP, Rails, Ruby, SQL, Bootstrap, Sass, CSS
-                and HTML.
-              </p>
               <p>
                 In my current role, I'm building sites for a wide client base and tools for internal use. I discovered
                 software engineering through nearly 10 years of experience in digital newsrooms.
@@ -219,7 +222,7 @@ class Homepage extends React.Component {
                   Pushed to production on an accelerated schedule to get essential COVID-19 messaging out to union
                   members.
                 </t.P>
-                <t.P>Lead developer as part of the Mosaic Strategies Group team in Bloomfield, New Jersey.</t.P>
+                <t.P>Lead developer as part of the Mosaic Strategies Group in Bloomfield, New Jersey.</t.P>
                 <LinkButton primary bold className="link" as="a" target="_blank" href="https://www.ufcw2013.org/">
                   Live site
                 </LinkButton>

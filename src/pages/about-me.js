@@ -108,14 +108,16 @@ class AboutMe extends React.Component {
               <p>
                 I’m a web developer who spent 10 years as a front page journalist before learning software engineering
                 with the Flatiron School. In my current role at a digital marketing firm, I'm building sites for a wide
-                base of clients. I'm updating custom WordPress themes and plugins using PHP and styling using Sass. I'm
-                also using React, the WordPress API and the NationBuilder API to build internal reporting and metrics
-                apps.
+                base of clients. I'm customizing an in-house WordPress theme via plugins using PHP and jQuery, and I'm
+                styling sites using Sass. I'm also using React, TypeScript, the WordPress API and the NationBuilder API
+                to build internal reporting and metrics apps.
               </p>
               <p>
-                My previous career as a front page editor showed me the power of digital tools, and I'm eager to grow as
-                a developer and learn on the job. I'm excited by JavaScript and frameworks like React, Angular and
-                Vue.js, and I appreciate the structure of Rails and syntax of Ruby.
+                My previous career as a front page editor at the New York Times, Yahoo News, and NBC News showed me the
+                power of digital tools, and I'm eager to grow as a developer and learn on the job. I'm excited by
+                JavaScript and frameworks like React, Angular and Vue.js, and I appreciate the structure of Rails and
+                syntax of Ruby. Developing with WordPress and PHP has shown me how to customize and add flexibility to
+                structure with a focus on clients' ease of use.
               </p>
               <p>
                 I became very familiar with explaining technical concepts in real-world terms during my time as an
@@ -123,9 +125,11 @@ class AboutMe extends React.Component {
                 non-technical backgrounds.
               </p>
               <p>
-                I’ve worked in React, Redux, Node.js, JavaScript, WordPress, PHP, Ruby on Rails, Sinatra, Bootstrap,
-                Sass, CSS and HTML, and I have extensive experience working remotely and in high-pressure,
-                deadline-driven environments.
+                I’ve worked in React, Redux, JavaScript, WordPress, PHP, jQuery, Ruby on Rails, Sinatra, Bootstrap,
+                Sass, CSS and HTML, and I'm independently going deeper with PHP and React Hooks while learning
+                TypeScript, Python and Django. I have extensive experience working remotely and in high-pressure,
+                deadline-driven environments, and my enthusiasm for learning is matched by my desire to contribute to a
+                supportive work culture.
               </p>
             </t.LargeP>
           </AboveFold>
