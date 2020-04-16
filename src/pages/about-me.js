@@ -117,7 +117,8 @@ class AboutMe extends React.Component {
                 power of digital tools, and I'm eager to grow as a developer and learn on the job. I'm excited by
                 JavaScript and frameworks like React, Angular and Vue.js, and I appreciate the structure of Rails and
                 syntax of Ruby. Developing with WordPress and PHP has shown me how to customize and add flexibility to
-                structure with a focus on clients' ease of use.
+                structure with a focus on clients' ease of use. And freelance projects in Python and Django have
+                expanded my tech stack.
               </p>
               <p>
                 I became very familiar with explaining technical concepts in real-world terms during my time as an
