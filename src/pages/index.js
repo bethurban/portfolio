@@ -10,6 +10,7 @@ import Wishlist from '../images/travelwishlist.png';
 import Prince from '../images/prince.png';
 import Dogbreeds from '../images/dogbreeds.png';
 import UFCW from '../images/UFCW.png';
+import BACNJ from '../images/bacnj.png';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
@@ -209,14 +210,35 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
+                <ItemImage src={BACNJ} alt="BACNJ" />
+              </DivWrapper>
+              <DivWrapper>
+                <t.H2 bold>BACNJ</t.H2>
+                <t.P>
+                  The Bricklayers and Allied Craftworkers Union of New Jersey represents bricklayers, stone and marble
+                  masons, and other craftworkers across the state.
+                </t.P>
+                <t.P>
+                  Custom WordPress build incorporating an in-house theme and site-specific plugin. PHP and jQuery,
+                  styled to design specs with Sass.
+                </t.P>
+                <LinkButton primary bold className="link" as="a" target="_blank" href="https://bacnj.com/">
+                  Live site
+                </LinkButton>
+              </DivWrapper>
+            </BlockContent>
+          </Block>
+          <Block>
+            <BlockContent>
+              <DivWrapper>
                 <t.H2 bold>UFCW Local 2013</t.H2>
                 <t.P>
                   One of the nearly 1,000 local unions in the U.S., Canada and Puerto Rico that make up the United Food
                   and Commercial Workers International Union.
                 </t.P>
                 <t.P>
-                  Custom WordPress theme with additional customization to meet design and client needs via plugin. PHP
-                  and jQuery, styled with Sass.
+                  In-house WordPress theme with customization to meet design and client needs via plugin. PHP and
+                  jQuery, styled with Sass.
                 </t.P>
                 <t.P>
                   Pushed to production on an accelerated schedule to get essential COVID-19 messaging out to union
