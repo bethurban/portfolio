@@ -222,6 +222,7 @@ class Homepage extends React.Component {
                   Custom WordPress build incorporating an in-house theme and site-specific plugin. PHP and jQuery,
                   styled to design specs with Sass.
                 </t.P>
+                <t.P>Lead developer as part of the Mosaic Strategies Group in Bloomfield, New Jersey.</t.P>
                 <LinkButton primary bold className="link" as="a" target="_blank" href="https://bacnj.com/">
                   Live site
                 </LinkButton>
@@ -244,7 +245,7 @@ class Homepage extends React.Component {
                   Pushed to production on an accelerated schedule to get essential COVID-19 messaging out to union
                   members.
                 </t.P>
-                <t.P>Lead developer as part of the Mosaic Strategies Group in Bloomfield, New Jersey.</t.P>
+                <t.P>Lead developer as part of the Mosaic Strategies Group.</t.P>
                 <LinkButton primary bold className="link" as="a" target="_blank" href="https://www.ufcw2013.org/">
                   Live site
                 </LinkButton>
