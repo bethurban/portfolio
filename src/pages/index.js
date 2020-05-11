@@ -171,11 +171,8 @@ class Homepage extends React.Component {
               Software engineer, Flatiron School graduate, former digital journalist
             </t.H2>
             <t.H4>
-              <b>Experienced:</b> React, Redux, JavaScript, jQuery, WordPress, PHP, Rails, Ruby, SQL, Bootstrap, Sass,
-              CSS, HTML.
-            </t.H4>
-            <t.H4>
-              <b>Learning and diving deeper:</b> TypeScript, React Hooks, PHP, Python, Django.
+              <b>Experienced and always learning:</b> WordPress, PHP, React, Redux, JavaScript, TypeScript, jQuery,
+              Python, Django, Rails, Ruby, SQL, Bootstrap, Sass, CSS, HTML.
             </t.H4>
           </AboveFold>
           <Content>
@@ -199,8 +196,9 @@ class Homepage extends React.Component {
               </p>
               <p>Experienced in remote work and eager to learn on the job.</p>
               <p>
-                In my current role, I'm building sites for a wide client base and tools for internal use. I discovered
-                software engineering through nearly 10 years of experience in digital newsrooms.
+                In my current role, I'm building custom WordPress sites for a wide client base and tools for internal
+                use using React. I discovered software engineering through nearly 10 years of experience in digital
+                newsrooms.
               </p>
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
